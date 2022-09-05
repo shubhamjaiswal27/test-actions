@@ -14,7 +14,13 @@ jobs:
 
     - name: check for changes
       run: git status
-      
+
+    - name: set config username
+      run: git config user.name "shubhamjaiswal27"
+
+    - name: set config email
+      run: git config user.email "shubham.jaizz007@gmail.com"
+
     - name: stage changed files
       run: git add .
 
