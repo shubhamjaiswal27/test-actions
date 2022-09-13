@@ -8,6 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-
-    - name: generate backend app
-      run: shubhamjaiswal27/gen-express-action@v1.0.0
+    - uses: shubhamjaiswal27/gen-express-action@v1.0.0
