@@ -11,7 +11,7 @@ jobs:
     - uses: shubhamjaiswal27/gen-express-action@v1.0.1
       with:
         name: api
-    - uses: shubhamjaiswal27/commit-push-action@v1.0.1
+    - uses: shubhamjaiswal27/commit-push-action@v1.0.2
       with:
         git_username: codebot
         git_email: codebot
