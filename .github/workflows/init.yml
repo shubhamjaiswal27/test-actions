@@ -8,4 +8,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: shubhamjaiswal27/gen-express-action@v1.0.0
+    - uses: shubhamjaiswal27/gen-express-action@v1.0.1
+      with:
+        name: api
+    - uses: shubhamjaiswal27/commit-push-action@v1.0.1
+      with:
+        git_username: codebot
+        git_email: codebot
+        branch: main
+        commit_message: initial backend app generated
