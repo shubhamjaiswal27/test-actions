@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: shubhamjaiswal27/gen-express-action@v1.0.1
+    - uses: shubhamjaiswal27/create-express-app@v1.0.0
       with:
         name: api
     - uses: shubhamjaiswal27/commit-push-action@v1.0.4
